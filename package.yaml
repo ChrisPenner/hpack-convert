@@ -30,7 +30,7 @@ dependencies:
 
 library:
   source-dirs: src
-  dependencies:
+  dependencies: []
   exposed-modules:
     - Hpack.Convert
 

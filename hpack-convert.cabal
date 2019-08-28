@@ -1,10 +1,10 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.31.1.
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 4794b90b9a3b0d9b99da7c29255e6062b59cfce3da83ccb1dfa4abe46a90d253
+-- hash: a66d8134ff3a27ec38f30756f1a429775f93a383e757a0cdb56c75198f92f68f
 
 name:           hpack-convert
 version:        1.0.1
@@ -62,8 +62,8 @@ library
       src
   ghc-options: -Wall -fcontext-stack=100
   build-depends:
-      Cabal >=1.22
-    , Glob
+      Cabal ==1.24.2.0
+    , Glob ==0.8.0
     , aeson
     , base >=4.7 && <5
     , base-compat >=0.8
@@ -101,8 +101,8 @@ executable hpack-convert
       src
   ghc-options: -Wall -fcontext-stack=100
   build-depends:
-      Cabal >=1.22
-    , Glob
+      Cabal ==1.24.2.0
+    , Glob ==0.8.0
     , aeson
     , base >=4.7 && <5
     , base-compat >=0.8
@@ -141,8 +141,8 @@ test-suite spec
   ghc-options: -Wall -fcontext-stack=100
   cpp-options: -DTEST
   build-depends:
-      Cabal >=1.22
-    , Glob
+      Cabal ==1.24.2.0
+    , Glob ==0.8.0
     , QuickCheck
     , aeson
     , aeson-qq

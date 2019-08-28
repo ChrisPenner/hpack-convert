@@ -13,12 +13,12 @@ extra-source-files:
 dependencies:
   - base >= 4.7 && < 5
   - base-compat >= 0.8
-  - Cabal >= 1.22
+  - Cabal == 1.24.2.0
   - pretty
   - deepseq
   - directory
   - filepath
-  - Glob
+  - Glob == 0.8.0
   - text
   - containers
   - unordered-containers >= 0.2.7.1
